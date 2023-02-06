@@ -6,7 +6,7 @@ const Posts = () => {
     const[task,setTask] = useState('');
     const[id,setId] = useState(1);
     const[doTask,setDoToTask] = useState([]);
-    console.log('Your task name : '+task);
+    // console.log('Your task name : '+task);
     
     const addFunction = ()=>{
         

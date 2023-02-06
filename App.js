@@ -8,6 +8,7 @@ import Dashboard from './pages/Dashboard';
 import Profile from './pages/Profile';
 import Posts from './pages/Posts';
 import Navigation from './pages/Navigation';
+import Weather from './pages/Weather';
 export default function App(){
   const[email,setEmail] = useState("");
   const[password,setPassword] = useState("");
@@ -25,6 +26,7 @@ export default function App(){
         <Stack.Screen name = "Dashboard" component={ Dashboard }/>
         <Stack.Screen name = "Profile" component={ Profile }/>
         <Stack.Screen name = "Posts" component={ Posts }/>
+        <Stack.Screen name = "Weather" component={ Weather }/>
       </Stack.Navigator>
    </NavigationContainer>
   )
